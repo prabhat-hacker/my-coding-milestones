@@ -2,17 +2,22 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a=3;
+    int a;
     cin>>a;
-    if (a%5==0){
+    if (a%5==0&a%11==0){
+       
+        
+        cout<<"divisible by both";
+        
+    }
+    else if (a%5==0){
         cout<<"divisible by 5";
+    } 
+    else if (a%11==0){
+        cout<<"divisible by 11";
     }
     else{
-        if(a%11==0){
-            cout<<"divisible by 11";
-        }else{
-            cout<<"not divisible by both";
-        }
+        cout<<"divisible by both";
     }
     
     
