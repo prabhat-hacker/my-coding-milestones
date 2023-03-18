@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
 int main(){
-char x =127;
+char x ='s';
 cout<<(int)x;
 }
