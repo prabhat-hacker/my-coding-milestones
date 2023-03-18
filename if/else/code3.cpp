@@ -4,23 +4,15 @@ using namespace std;
 int main(){
     int a;
     cin>>a;
-    if (a%5==0&a%11==0){
-       
-        
+    if((a%5==0)&&(a%11==0)){
         cout<<"divisible by both";
         
+    }else if(a%5==0){
+        cout<<"only divisible by 5";
+    }else if(a%11==0){
+        cout<<"only divisible by 11";
+    }else{
+        cout<<"not divisible by both";
     }
-    else if (a%5==0){
-        cout<<"divisible by 5";
-    } 
-    else if (a%11==0){
-        cout<<"divisible by 11";
-    }
-    else{
-        cout<<"divisible by both";
-    }
-    
-    
-
     return 0;
 }
