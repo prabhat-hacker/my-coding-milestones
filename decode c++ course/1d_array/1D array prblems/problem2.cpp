@@ -1,11 +1,11 @@
-//wap to copy the contents of one array into another in the reverse order
-#include<iostream>
+//wap to copy the contents of one array into another in the reverse order#include<iostream>
 #include<vector>
 using namespace std;
 void display(vector<int>&a){
     for(int i=0;i<a.size();i++){
         cout<<a[i]<<" ";
-    }cout<<endl;
+    } 
+    cout<<endl;
 }
 int main(){
 vector<int>v;
